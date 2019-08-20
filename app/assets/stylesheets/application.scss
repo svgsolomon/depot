@@ -1,4 +1,4 @@
-body, body > p, body > ol, body > ul, body > td {margin: 8px}
+body, body > p, body > ol, body > ul, body > td {margin: 8px !important;}
 
 #banner{
   position: relative;
@@ -18,7 +18,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px}
   }
 }
 #notice {
-  color: #000;
+  color: #000 !important;
   border: 2px solid red;
   padding: 1em;
   margin-bottom: 2em;
