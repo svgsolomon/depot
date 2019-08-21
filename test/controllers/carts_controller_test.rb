@@ -44,5 +44,6 @@ class CartsControllerTest < ActionDispatch::IntegrationTest
     end
 
     assert_redirected_to carts_url
+    assert_redirected_to store_index_url
   end
 end
